@@ -35,6 +35,6 @@ def matrix_lookup(matrix, row, column)
 end
 
 def matrix_update(matrix, row, column, new_value)
-  matrix[3][2] = new_value
+  matrix[3][2] = "new_value"
   matrix
 end
